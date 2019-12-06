@@ -46,4 +46,4 @@ function kmp(str, pattern) {
 	return false;
 }
 
-console.log(kmp('sammiebae', 'ma'));
+console.log(kmp('sammiebae', 'am'));
