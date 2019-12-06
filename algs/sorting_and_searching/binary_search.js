@@ -1,4 +1,4 @@
-function binarySearch(array, n) {
+function binary_search(array, n) {
 	let start = 0, end = array.length - 1;
 
 	while (start <= end) {
@@ -13,4 +13,4 @@ function binarySearch(array, n) {
 
 let searchArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-console.log(binarySearch(searchArray, 12));
+console.log(binary_search(searchArray, 12));
